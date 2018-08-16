@@ -1,0 +1,19 @@
+{
+    "name": "parcel-app",
+    "version": "1.0.0",
+    "description": "just try to learn parceljs",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html",
+        "watch": "parcel watch index.html",
+        "build": "parcel build index.html --no-source-maps --experimental-scope-hoisting --out-dir build"
+    },
+    "author": "Amir Sasani",
+    "license": "MIT",
+    "dependencies": {
+        "node-sass": "^4.9.3"
+    },
+    "devDependencies": {
+        "cssnano": "^4.0.5"
+    }
+}

@@ -1,0 +1,43 @@
+$mainColor: #95a5a6;
+$secondaryColor: #9b59b6;
+$secondaryTextColor: #ddd;
+
+@mixin border-radius($value) {
+    -moz-border-radius: $value;
+    -webkit-border-radius: $value;
+    -ms-border-radius: $value;
+    -o-border-radius: $value;
+    border-radius: $value;
+}
+@mixin transition($value) {
+    -moz-transition: $value;
+    -webkit-transition: $value;
+    -ms-transition: $value;
+    -o-transition: $value;
+    transition: $value;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: $mainColor;
+    a {
+        color: $secondaryTextColor;
+        border: 2px solid $secondaryColor;
+        padding: 10px;
+        text-decoration: none;
+        @include border-radius(5px);
+
+        @include transition(0.2s all);
+
+        &:hover {
+            border-color: darken($secondaryColor, 5%);
+            background-color: $secondaryColor;
+        }
+    }
+    p {
+        color: #000000;
+    }
+}
