@@ -1,5 +1,5 @@
 {
-    "name": "parcel-app",
+    "name": "parcel-quickstart",
     "version": "1.0.0",
     "description": "just try to learn parceljs",
     "main": "index.js",
