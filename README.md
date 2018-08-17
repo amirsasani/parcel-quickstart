@@ -56,4 +56,4 @@ Enjoy Parcel.js ;-)
 
 ---
 
-FOR MORE INFORMATION SEE [parcel.js documentation](https://parceljs.org/)
+FOR MORE INFORMATION SEE [parcel.js documentation](https://parceljs.org/getting_started.html)
